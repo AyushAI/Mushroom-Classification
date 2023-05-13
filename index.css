@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 :root{
     --bg-color: #222429;
     --primary-bg-color: #333740;
@@ -8,7 +10,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -28,13 +30,12 @@ h1 {
 form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Change justify-content from space-between to center */
+    justify-content: center;
     margin: 0 auto;
     max-width: 800px;
-  }
-  
-  
-  label {
+}
+
+label {
     display: flex; 
     flex-basis: 40%;
     font-size: 1.2rem;
@@ -46,7 +47,8 @@ select {
     background-color: var(--primary-bg-color);
     flex-basis: 40%;
     display: block;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
     padding: 0.5rem;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -80,4 +82,8 @@ button[type="submit"] {
   
 button[type="submit"]:hover {
     background-color: #45a049; 
+}
+
+option{
+    padding: 0 1.8rem;
 }
