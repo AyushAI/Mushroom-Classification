@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+  
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+}
+  
+label {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+select {
+    display: block;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 12px 20px; /* Padding */
+    border: none; /* Remove borders */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Add cursor on hover */
+    font-size: 16px; /* Font size */
+}
+  
+button[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+  
