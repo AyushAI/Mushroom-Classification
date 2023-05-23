@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>Mushroom Characteristics</h1>
-    <form>
+    <form method="POST" action="/predict">
       <label id="gill-size">Gill Size:</label>
       <select id="gill-size" name="gill-size">
         <option value="b">Broad</option>
@@ -63,7 +63,7 @@
       </select>
 
       <div class="button">
-        <button type="submit">Submit</button>
+        <input type="submit"></input>
       </div>
     </form>
   </body>
