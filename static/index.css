@@ -68,16 +68,7 @@ section:focus{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer; 
-    font-size: 16px;
+    padding-top: 10px;
 }
   
 button[type="submit"]:hover {
@@ -86,4 +77,19 @@ button[type="submit"]:hover {
 
 option{
     padding: 0 1.8rem;
+}
+
+input{
+    background-color: var(--primary-bg-color);
+    flex-basis: 40%;
+    display: block;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    width: 100%;
+    color: var(--text-color);
+    box-sizing: border-box;
 }
