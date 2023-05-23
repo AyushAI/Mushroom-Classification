@@ -2,75 +2,15 @@
 <html>
   <head>
     <title>Mushroom Characteristics</title>
-    <link rel="stylesheet" type="text/css" href="./static\index.css">      
+    <link rel="stylesheet" type="text/css" href="/static/index.css">      
   </head>
   <body>
     <h1>Mushroom Characteristics</h1>
     <form>
-      <label for="cap-shape">Cap Shape:</label>
-      <select id="cap-shape" name="cap-shape">
-        <option value="b">Bell</option>
-        <option value="c">Conical</option>
-        <option value="x">Convex</option>
-        <option value="f">Flat</option>
-        <option value="k">Knobbed</option>
-        <option value="s">Sunken</option>
-      </select>
-
-      <label for="cap-surface">Cap Surface:</label>
-      <select id="cap-surface" name="cap-surface">
-        <option value="f">Fibrous</option>
-        <option value="g">Grooves</option>
-        <option value="y">Scaly</option>
-        <option value="s">Smooth</option>
-      </select>
-
-      <label for="cap-color">Cap Color:</label>
-      <select id="cap-color" name="cap-color">
-        <option value="n">Brown</option>
-        <option value="b">Buff</option>
-        <option value="c">Cinnamon</option>
-        <option value="g">Gray</option>
-        <option value="r">Green</option>
-        <option value="p">Pink</option>
-        <option value="u">Purple</option>
-        <option value="e">Red</option>
-        <option value="w">White</option>
-        <option value="y">Yellow</option>
-      </select>
-
-      <label for="bruises">Bruises:</label>
-      <select id="bruises" name="bruises">
-        <option value="t">Yes</option>
-        <option value="f">No</option>
-      </select>
-
-      <label for="odor">Odor:</label>
-      <select id="odor" name="odor">
-        <option value="a">Almond</option>
-        <option value="l">Anise</option>
-        <option value="c">Creosote</option>
-        <option value="y">Fishy</option>
-        <option value="f">Foul</option>
-        <option value="m">Musty</option>
-        <option value="n">None</option>
-        <option value="p">Pungent</option>
-        <option value="s">Spicy</option>
-      </select>
-
-      <label for="gill-attachment">Gill Attachment:</label>
-      <select id="gill-attachment" name="gill-attachment">
-        <option value="a">Attached</option>
-        <option value="d">Descending</option>
-        <option value="f">Free</option>
-        <option value="n">Notched</option>
-      </select>
-
-      <label for="gill-spacing">Gill Spacing:</label>
-      <select id="gill-spacing" name="gill-spacing">
-        <option value="c">Close</option>
-        <option value="w">Crowded</option>
-        <option value="d">Distant</option>
+      <label id="gill-size">Gill Size:</label>
+      <select id="gill-size" name="gill-size">
+        <option value="b">Broad</option>
+        <option value="n">Narrow</option>
       </select>
 
       <label for="gill-color">Gill Color:</label>
@@ -89,12 +29,6 @@
         <option value="y">Yellow</option>
       </select>
 
-      <label for="stalk-shape">Stalk Shape:</label>
-      <select id="stalk-shape" name="stalk-shape">
-        <option value="e">Enlarging</option>
-        <option value="t">Tapering</option>
-      </select>
-
       <label for="stalk-root">Stalk Root:</label>
       <select id="stalk-root" name="stalk-root">
         <option value="b">Bulbous</option>
@@ -103,75 +37,6 @@
         <option value="e">Equal</option>
         <option value="z">Rhizomorphs</option>
         <option value="r">Rooted</option>
-      </select>
-
-      <label for="stalk-surface-above-ring">Stalk Surface Above Ring:</label>
-      <select id="stalk-surface-above-ring" name="stalk-surface-above-ring">
-        <option value="f">Fibrous</option>
-        <option value="y">Scaly</option>
-        <option value="k">Silky</option>
-        <option value="s">Smooth</option>
-      </select>
-
-      <label for="stalk-surface-below-ring">Stalk Surfaace Below Ring:</label>
-      <select id="stalk-surface-below-ring" name="stalk-surface-below-ring">
-        <option value="f">Fibrous</option>
-        <option value="y">Scaly</option>
-        <option value="k">Silky</option>
-        <option value="s">Smooth</option>
-      </select>
-      
-      <label for="stalk-color-above-ring">Stalk Color Above Ring:</label>
-      <select id="stalk-color-above-ring" name="stalk-color-above-ring">
-        <option value="n">Brown</option>
-        <option value="b">Buff</option>
-        <option value="c">Cinnamon</option>
-        <option value="g">Gray</option>
-        <option value="o">Orange</option>
-        <option value="p">Pink</option>
-        <option value="e">Red</option>
-        <option value="w">White</option>
-        <option value="y">Yellow</option>
-      </select>
-
-      <label for="stalk-color-below-ring">Stalk Color Below Ring:</label>
-      <select id="stalk-color-below-ring" name="stalk-color-below-ring">
-        <option value="n">Brown</option>
-        <option value="b">Buff</option>
-        <option value="c">Cinnamon</option>
-        <option value="g">Gray</option>
-        <option value="o">Orange</option>
-        <option value="p">Pink</option>
-        <option value="e">Red</option>
-        <option value="w">White</option>
-        <option value="y">Yellow</option>
-      </select>
-
-      <label for="veil-color">Veil Color</label>
-      <select id="veil-color" name="veil-color">
-        <option value="n">Brown</option>
-        <option value="o">Orange</option>
-        <option value="w">White</option>
-        <option value="y">Yellow</option>
-      </select>
-
-      <label for="ring-number">Number of Rings:</label>
-      <select id="ring-number" name="ring-number">
-        <option value="n">None</option>
-        <option value="o">One</option>
-        <option value="t">Two</option>
-      </select>
-
-      <label for="ring-type">Ring Type:</label>
-      <select id="ring-type" name="ring-type">
-        <option value="n">None</option>
-        <option value="c">Cobwebby</option>
-        <option value="e">Evanescent</option>
-        <option value="f">Flaring</option>
-        <option value="l">Large</option>
-        <option value="p">Pendant</option>
-        <option value="s">Sheathing</option>
-        <option value="z">Zone</option>
       </select>
 
       <label for="spore-print-color">Spore Print Color</label>
@@ -195,17 +60,6 @@
         <option value="s">Scattered</option>
         <option value="v">Several</option>
         <option value="y">Solitary</option>
-      </select>
-
-      <label for="habitat">Habitat</label>
-      <select id="habitat" name="habitat">
-        <option value="g">Grasses</option>
-        <option value="l">Leaves</option>
-        <option value="m">Meadows</option>
-        <option value="p">Paths</option>
-        <option value="u">Urban</option>
-        <option value="w">Waste</option>
-        <option value="d">Woods</option>
       </select>
 
       <div class="button">
