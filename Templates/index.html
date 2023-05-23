@@ -7,7 +7,7 @@
   <body>
     <h1>Mushroom Characteristics</h1>
     <form method="POST" action="/predict">
-      <label id="gill-size">Gill Size:</label>
+      <label for="gill-size">Gill Size:</label>
       <select id="gill-size" name="gill-size">
         <option value="b">Broad</option>
         <option value="n">Narrow</option>
@@ -39,7 +39,7 @@
         <option value="r">Rooted</option>
       </select>
 
-      <label for="spore-print-color">Spore Print Color</label>
+      <label for="spore-print-color">Spore Print Color:</label>
       <select id="spore-print-color" name="spore-print-color">
         <option value="k">Black</option>
         <option value="n">Brown</option>
@@ -63,7 +63,7 @@
       </select>
 
       <div class="button">
-        <input type="submit"></input>
+        <input type="submit" value="Predict"></input>
       </div>
     </form>
   </body>
