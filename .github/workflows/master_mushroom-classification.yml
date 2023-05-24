@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Mushroom-Classification'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5B6227F480B7470B84B674592FB85EC8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7221EF910B0F4A6A925DFC53BCD19088 }}
